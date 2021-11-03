@@ -1,10 +1,10 @@
-> _Fork_ deze leertaak en ga aan de slag. Onderstaande outline ga je gedurende deze taak in jouw eigen GitHub omgeving uitwerken. De instructie vind je in: [docs/INSTRUCTIONS.md](docs/INSTRUCTIONS.md)
-# Rapportage webtoegankelijkheid-test voor {naam van de website}
+# Rapportage webtoegankelijkheid-test voor OBA activiteiten landingspagina
 *Dit document is een template voor een webtoegankelijkheid-test volgens de Web Content Accessibility Guidelines (WCAG). Een consistente rapportage helpt bij het uitvoeren van een evaluatie en zorgt er voor dat verschilelnde tests kunnen worden vergeleken.*
 Datum webtoegankelijkheid-test: 04-11-2021
 Webtoegankelijkheid-test uitgevoerd door: Nandita Badeloe
+
 ## Inhoudsopgave
- * [Samenvatting](#samenvatting)
+* [Samenvatting](#samenvatting)
 * [Achtergrond bij de evaluatie](#achtergrond-bij-de-evaluatie)
 * [Afbakening](#afbakening)
 * [Beoordelaars](#beoordelaars)
@@ -13,37 +13,54 @@ Webtoegankelijkheid-test uitgevoerd door: Nandita Badeloe
 * [Referenties](#referenties)
 * [Bijlagen](#bijlagen)
 * [Licentie](#licentie)
+
+
 ## Samenvatting
 Dit rapport beschrijft in hoeverre de website {naam van de website} overeenstemt met de *Web Content Accessibility Guidelines (WCAG)* van het W3C. Na de achtergrondinformatie en afbakening van de test worden beoordelaars, beoordelingsproces en testresulltaten beschreven.
 Conslusie van deze test luidt dat de {Frontend Design & Development} website {niet voldoet/ voldoet/ dichtbij voldoen is aan} de WCAG 2.1, op niveau {A/ AA/ AAA}. Gedetailleerde resultaten en aanbevelingen zijn verderop in dit document beschikbaar en in de referenties vindt u bronnen voor eventuele vervolgstudie. Wij stellen feedback op deze evaluatie zeer op prijs.
+
 ## Achtergrond bij de evaluatie
 De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en handmatig uitgevoerde evaluatie tools door een ervaren beoordelaar. De beoordelingsresultaten in dit rapport zijn gebaseerd op een beoordeling welke is uitgevoerd op 01-11-2021. De website kan ondertussen aangepast zijn.
+
 ## Afbakening
 [huidige activiteiten landingspagina](https://www.oba.nl/activiteiten.html)
 Het doel van deze pagina is om de gebruiker de aangboden activitieten te laten zien. wij testen daarom alleen de landingspagina en maken hier bij gebruik van
 [lighthouse](https://developers.google.com/web/tools/lighthouse), [a11y checklist](https://www.a11yproject.com/checklist/) en eye tracking. De meeste testen hebben plaatsgevonden op 01-11-2021. OBA heeft als taal standaard Nederlands maar heeft ook een engelse versie van de site.
+
 ## Beoordelaars
 
 ## Beoordelingsproces
 {Benoem het WCAG 2.1 niveau waarvoor de beoordeling is uitgevoerd, bv. WCAG 2.1 Niveau A, AA of AAA}
 {Benoem de beoordelings- en evaluatietools en versies van de tools die gebruikt zijn}
 {Beschrijf hoe handmatige beoordeling is uitgevoerd, bv. usability test of toegankelijkheidstest aan de hand van A11Y Project-checklist}
+
 ## Testresultaten en aanbevelingen
 {Samenvatting van testresultaten, bv. deze website {voldoet/ voldoet niet/ is dichtbij aan voldoen} aan de WCAG 2.1, op niveau A, AA of AAA.}
+
 ### Sterke punten
 {Samenvatting van de de sterke punten ...}
+
 ### Ontoegankelijke punten
 {Samenvatting van ontoegankelijke punten ...}
+
 ### Checklist
 {Beschijf de resultaten van de hele test op basis van de A11Y Project-Checklist}
 ##### Content
+
 ##### Global code
+
 ##### Keyboard
+
 ##### Images
+
 ##### Headings
+
 ##### Lists
+
 ##### Controls
+
 ##### Tables
+
 ##### Forms
 
 [All inputs in a form are associated with a corresponding label element.](https://www.a11yproject.com/checklist/#all-inputs-in-a-form-are-associated-with-a-corresponding-label-element)
@@ -51,10 +68,13 @@ Het doel van deze pagina is om de gebruiker de aangboden activitieten te laten z
 
 ##### Media
 no media
+
 ##### Video
 no video
+
 ##### Audio
 no audio
+
 ##### Appearance
 [Double-check that good proximity between content is maintained.](https://www.a11yproject.com/checklist/#double-check-that-good-proximity-between-content-is-maintained)
 
