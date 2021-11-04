@@ -22,6 +22,7 @@ De webtoegankelijkheid-test vereist een combinatie van semi-geautomatiseerde en 
 
 ## Afbakening
 [huidige activiteiten landingspagina](https://www.oba.nl/activiteiten.html)
+![alt text](https://github.com/beaupd/oba-activiteitenhub-a11y-audit-autonomous/blob/activiteiten/oba-screen1.png "header oba activiteiten")
 Het doel van deze pagina is om de gebruiker de aangboden activitieten te laten zien. wij testen daarom alleen de landingspagina en maken hier bij gebruik van
 [lighthouse](https://developers.google.com/web/tools/lighthouse), [a11y checklist](https://www.a11yproject.com/checklist/) en eye tracking. De meeste testen hebben plaatsgevonden op 01-11-2021. OBA heeft als taal standaard Nederlands maar heeft ook een engelse versie van de site.
 Activiteiten
@@ -72,7 +73,7 @@ No tables element.
 ##### Forms
 [All inputs in a form are associated with a corresponding label element.](https://www.a11yproject.com/checklist/#all-inputs-in-a-form-are-associated-with-a-corresponding-label-element)
 
-[Make sure that form input errors are displayed in list above the form after submission.](https://www.a11yproject.com/checklist/#make-sure-that-form-input-errors-are-displayed-in-list-above-the-form-after-submission
+[Make sure that form input errors are displayed in list above the form after submission.](https://www.a11yproject.com/checklist/#make-sure-that-form-input-errors-are-displayed-in-list-above-the-form-after-submission)
 
 ##### Media
 No Media
@@ -92,13 +93,10 @@ no animation
 ##### Mobile and touch
 [Ensure that button and link icons can be activated with ease.](https://www.a11yproject.com/checklist/#ensure-that-button-and-link-icons-can-be-activated-with-ease)
 
-{Schrijf per check wat er uit de test is gekomen}
-{Neem links op naar de WCAG 2.1 succescriteria en technieken voor de ontoegankelijke punten}
-{Voeg per check specifieke rapportage(s), of links naar rapportage(s) toe in de Wiki, bv. screenshots van tests}
-{Schrijf per check aanbevelingen voor het verbeteren van ontoegankelijke punten}
-{Beschrijf of verwijs per check naar een programma voor het monitoren van webstite toegankelijkheid, her-beoordeling aan de hand van beoordelingsinstrumenten etc.}
 ### Resultaten Usability test
-{Beschrijf per pagina de bevindingen uit jouw usability test in het lab.}
+![alt text](https://github.com/beaupd/oba-activiteitenhub-a11y-audit-autonomous/blob/activiteiten/heatmap-oba%20-activiteiten.png "heatmap eye tracking oba activiteiten")
+![alt text](https://github.com/beaupd/oba-activiteitenhub-a11y-audit-autonomous/blob/activiteiten/graph-oba%20-activiteiten.png "graph eye tracking oba activiteiten")
+
 ## Referenties
 Referenties welke gebruikt zijn bij de webtoegankelijkheid-test. Deze referenties zijn allen in het Engels:
 - [Overzicht en introductie van de Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/intro/wcag)
@@ -110,8 +108,9 @@ Referenties welke gebruikt zijn bij de webtoegankelijkheid-test. Deze referentie
 - [A11Y Project Checklist](https://www.a11yproject.com/checklist/)
 {Vul aan waar nodig, haal weg wat niet relevant is}
 ## Bijlagen
-{Geef een opsomming van de bijlagen, zoals links naar rapportages, screenshots en uitleg in de Wiki}
-[Einde van het template]
+![alt text](https://github.com/beaupd/oba-activiteitenhub-a11y-audit-autonomous/blob/activiteiten/oba-lighthouse.png "lighthouse score oba activiteiten")
+lighthouse score kan verbeterd worden door de aangeven punten te fixen
+
 ## Licentie
 ![GNU GPL V3](https://www.gnu.org/graphics/gplv3-127x51.png)
 This work is licensed under [GNU GPLv3](./LICENSE).
